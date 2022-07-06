@@ -3,6 +3,21 @@ p{
 	text-align: justify;
 
 }
+a{
+	text-decoration: none;
+	color: gray;
+	font: 20px "monotype corsiva" ;
+}
+a:hover {
+    border-bottom: 1px solid gray; 
+}
 h1, h2{
 	text-align: center;
+}
+h1{
+	font-style: italic;
+}
+table{
+	width: 600px;
+	text-align: right;
 }
