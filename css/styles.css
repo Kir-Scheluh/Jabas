@@ -1,11 +1,22 @@
+body{
+	background-color: #fffff0;
+}
+ul p{
+	color: #4e1609;
+}
+.information, .information p{
+	color: #353839;
+}
+.facts, .facts p{
+	color: #003399;
+}
 p{
-	color: #333333;
+	color: ##353839;
 	text-align: justify;
-
 }
 a{
 	text-decoration: none;
-	color: gray;
+	color: #0000CC;
 	font: 20px "monotype corsiva" ;
 }
 a:hover {
@@ -13,6 +24,7 @@ a:hover {
 }
 h1, h2{
 	text-align: center;
+	color: #008c8c;
 }
 h1{
 	font-style: italic;
