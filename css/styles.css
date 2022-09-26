@@ -1,35 +1,45 @@
 body{
 	background-color: #fffff0;
+	margin-left: 100px;
+	width: 800px;
 }
-ul p{
-	color: #4e1609;
-}
-.information, .information p{
-	color: #353839;
-}
-.facts, .facts p{
-	color: #003399;
+.links{
+	border-top: 1px solid #0000CC;
 }
 p{
 	color: ##353839;
 	text-align: justify;
+	text-indent: 30px;
 }
+ul p{
+	color: #4e1609;
+}
+
+.information p, .facts p{
+	color: #353839;
+}
+
 a{
 	text-decoration: none;
 	color: #0000CC;
 	font: 20px "monotype corsiva" ;
 }
+
 a:hover {
     border-bottom: 1px solid gray; 
 }
+
+h1{
+	font-style: italic;
+}
+
 h1, h2{
 	text-align: center;
 	color: #008c8c;
 }
-h1{
-	font-style: italic;
-}
+
 table{
 	width: 600px;
 	text-align: right;
+	border-radius: 5px;
 }
