@@ -3,9 +3,6 @@ body{
 	margin-left: 100px;
 	width: 800px;
 }
-.links{
-	border-top: 1px solid #0000CC;
-}
 p{
 	color: ##353839;
 	text-align: justify;
@@ -41,5 +38,4 @@ h1, h2{
 table{
 	width: 600px;
 	text-align: right;
-	border-radius: 5px;
 }
