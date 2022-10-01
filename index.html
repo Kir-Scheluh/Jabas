@@ -3,19 +3,36 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Main page</title>
-	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+	<title>Навигатор по версиям</title>
+	<style type="text/css">				
+		#menu{
+			margin-top: 300px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;			
+			align-items: center;
+		}
+		#menu a{			
+			width: 100px;
+			margin-top: 15px;
+			padding: 10px;
+			border: 1px solid #00693E;
+			
+			text-align: center;
+			text-decoration: none;
+			color: #00693E;
+			font: 15px Arial;
+		}
+		#menu a:hover{
+			color: white;
+			background-color: #00693E;
+		}
+	</style>
 </head>
 <body>
-	<h1>Жабы</h1>
-
-	<img src="./pictures/jaba.jpg" width="700px" height="350px">
-	<div class="links">
-		<ul>
-			<li><a href="./pages/jokes.html"> Приколы<a></li>
-			<li><a href="./pages/information.html"> Информация<a></li>
-		</ul>
-	</div>
-		
+	<div id="menu">
+			<a href="./Version 1/index.html"> вариант 1 </a>
+			<a href="./Version 2/index.html"> вариант 2 </a>
+	</div>	
 </body>
 </html>
