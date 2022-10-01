@@ -16,3 +16,10 @@
 .menu a:hover, #menu a.active {
 	background-color: #47A76A;		
 }
+h1{
+	font: 50px Arial;
+	text-align: center;
+}
+#mp{
+	text-align: center;
+}
