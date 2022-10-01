@@ -4,7 +4,7 @@
 }
 .menu{
 	display: flex;			
-	background-color: #00693E;
+	background-color: #1FAB89;
 	justify-content: center;
 }
 .menu a{			
@@ -18,7 +18,7 @@
 	font: 15px Arial;
 }
 .menu a:hover, #menu a.active {
-	background-color: #47A76A;		
+	background-color: #62D2A2;		
 }
 .menu .first_page{
 
@@ -48,4 +48,25 @@ h2{
 }
 #caption{
 	text-align: center;
+}
+#jokes{
+	text-align: center;
+	display: flex;
+	justify-content: center;	
+}
+table{
+	border-radius: 10px;
+	border-spacing: 0;
+	border: 3px solid white;
+}
+th, td{
+	border: 1px solid white;	
+	padding: 7px;
+	color: white;
+}
+th{
+	background-color: #1FAB89;
+}
+td{
+	background-color: #9DF3C4;
 }
