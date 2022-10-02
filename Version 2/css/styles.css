@@ -17,11 +17,8 @@
 	color: white;
 	font: 15px Arial;
 }
-.menu a:hover, #menu a.active {
+.menu a:hover, .menu a.active {
 	background-color: #62D2A2;		
-}
-.menu .first_page{
-
 }
 h1{
 	font: 50px Arial;
