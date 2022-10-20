@@ -22,8 +22,7 @@ nav a:hover, nav a.active{
 	color: #62D2A2;
 	background-color: white;
 }
-content{
-	
+content{	
 	text-align: justify;
 }
 footer{
@@ -49,6 +48,8 @@ footer{
 	border: 1px solid #62D2A2;
 	padding: 10px;
 	background-color: white;
+	text-align: center;
+
 	font-family: Arial;
 }
 .quote{
@@ -99,3 +100,35 @@ ul{
 #left, #right{
 	width: 250px;
 }
+#jokes{
+	display: flex
+}
+table {
+width: 70%; /* Ширина таблицы */
+border-collapse: collapse; /* Убираем двойные линии между ячейками */
+margin: auto;
+margin-top: 10px;
+}
+#table_jokes td, #table_jokes th {
+padding: 3px; /* Поля вокруг содержимого таблицы */
+border: 1px solid white; /* Параметры рамки */
+width: 300px;
+}
+th {
+background: #62D2A2; /* Цвет фона заголовка */
+color: white;
+}
+#table_jokes tbody tr:hover {
+background: #62D2A2; /* Цвет фона при наведении */
+color: white; /* Цвет текста при наведении */
+}
+#pictures{
+	margin-top: 100px;
+	width: 90%;
+}
+#pictures img{
+	width: 425px;
+
+}
+
+
