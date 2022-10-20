@@ -28,6 +28,40 @@ content{
 footer{
 
 }
+h1{
+	font-size: 50px;
+	text-align: center;
+	font-weight: bold;
+	margin: 10px;
+}
+h2{
+	font-size: 27px;
+	text-align: center;
+	font-weight: bold;
+}
+h3{
+	font-size: 23px;
+	text-align: center;
+	font-weight: bold;
+}
+p{
+	font-size: 16px;
+	line-height: 1.5;	
+}
+ul{
+	list-style-type: none
+}
+table {
+width: 70%; /* Ширина таблицы */
+border-collapse: collapse; /* Убираем двойные линии между ячейками */
+margin: auto;
+margin-top: 10px;
+}
+th {
+background: #62D2A2; /* Цвет фона заголовка */
+color: white;
+}
+
 .container{
 	display: flex;
 	flex-direction: row-reverse;
@@ -59,29 +93,7 @@ footer{
 .img{
 	text-align: center;
 }
-h1{
-	font-size: 50px;
-	text-align: center;
-	font-weight: bold;
-	margin: 10px;
-}
-h2{
-	font-size: 27px;
-	text-align: center;
-	font-weight: bold;
-}
-h3{
-	font-size: 23px;
-	text-align: center;
-	font-weight: bold;
-}
-p{
-	font-size: 16px;
-	line-height: 1.5;	
-}
-ul{
-	list-style-type: none
-}
+
 #news{
 	background-color:#62D2A2;
 	color: white;
@@ -103,20 +115,11 @@ ul{
 #jokes{
 	display: flex
 }
-table {
-width: 70%; /* Ширина таблицы */
-border-collapse: collapse; /* Убираем двойные линии между ячейками */
-margin: auto;
-margin-top: 10px;
-}
+
 #table_jokes td, #table_jokes th {
 padding: 3px; /* Поля вокруг содержимого таблицы */
 border: 1px solid white; /* Параметры рамки */
 width: 300px;
-}
-th {
-background: #62D2A2; /* Цвет фона заголовка */
-color: white;
 }
 #table_jokes tbody tr:hover {
 background: #62D2A2; /* Цвет фона при наведении */
